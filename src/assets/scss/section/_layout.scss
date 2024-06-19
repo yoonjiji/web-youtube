@@ -17,7 +17,7 @@
 #footer {
     text-align: center;
     background-color: var(--black100);
-    border-top: 1px solid var(--black100);
+    border-top: 1px solid (var--black100);
     padding: 20px;
     margin-left: 260px;
     width: calc(100% - 260px);
@@ -33,7 +33,6 @@
             position: fixed;
             left: 0;
             top: 0;
-
         }
     }
     #main {

@@ -15,7 +15,6 @@ section {
         font-size: 1.25rem;
         margin-bottom: 1rem;
     }
-
 }
 
 // 섹션 로딩 소스
@@ -25,7 +24,7 @@ section {
 }
 .isLoaded {
     opacity: 1;
-    transition: opacity 0.5s; 
+    transition: opacity 0.5s;
 }
 
 // 마우스 오버 아이콘
@@ -35,7 +34,7 @@ section {
         display: block;
         cursor: pointer;
         width: 100%;
-
+        
         &::before {
             content: '';
             width: 100%;
@@ -52,13 +51,13 @@ section {
         }
 
         &::after {
-            content: '';
+            content: "";
             width: 80px;
             height: 80px;
             background: var(--blackAlpha400) url(../../img/icon/play.svg) no-repeat center;
             position: absolute;
-            top: 50%;
             left: 50%;
+            top: 50%;
             transform: translate(-50%, -50%);
             border-radius: 50%;
             opacity: 0;
@@ -70,4 +69,3 @@ section {
         }
     }
 }
-

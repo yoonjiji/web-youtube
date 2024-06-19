@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h2>🫣 나만의 포트폴리오 사이를 만들고 싶다면.</h2>
-            <div className="video__inner">
+            <h2>🤗 포트폴리오 만드는 방법을 공유합니다.</h2>
+            <div className='video__inner'>
                 {portfolioText.map((video, key) => (
                     <div className="video" key={key}>
                         <div className="video__thumb play__icon">

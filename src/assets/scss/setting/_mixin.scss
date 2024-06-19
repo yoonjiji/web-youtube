@@ -1,4 +1,4 @@
-// 한줄 효과
+// 한줄 효과 
 @mixin line-one {
     overflow: hidden;
     white-space: nowrap;
@@ -15,7 +15,7 @@
 }
 
 // 두줄 이상
-@mixin line($num) {
+@mixin line($num){
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

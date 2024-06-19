@@ -10,7 +10,6 @@ const Header = () => {
             <Logo />
             <Menu />
             <Sns />
-
         </header>
     )
 }
